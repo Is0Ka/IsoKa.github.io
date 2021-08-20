@@ -1,0 +1,283 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang20 /*BEGIN PS4 Controller Styling*/\par
+.controller.ds4 \{\par
+    background: url(https://imgur.com/67OWzYM.gif);\par
+    height: 598px;\par
+    width: 806px;\par
+    /*    margin-left: -403px;\par
+        margin-top: -280px;*/\par
+\}\par
+\par
+.ds4.disconnected \{\par
+    background: url(ps4-assets/disconnected.svgz);\par
+\}\par
+\par
+.ds4.disconnected div \{\par
+    display: none;\par
+\}\par
+\par
+.ds4 .triggers \{\par
+    width: 588px;\par
+    height: 90px;\par
+    position: absolute;\par
+    left: 109px;\par
+\}\par
+\par
+.ds4 .trigger \{\par
+    width: 99px;\par
+    height: 100%;\par
+    background: url(ps4-assets/triggers.svgz);\par
+    opacity: 0;\par
+\}\par
+\par
+.ds4 .trigger.left \{\par
+    float: left;\par
+\}\par
+\par
+.ds4 .trigger.right \{\par
+    float: right;\par
+    background-position-x: 99px;\par
+\}\par
+\par
+.ds4 .bumper \{\par
+    width: 99px;\par
+    height: 23px;\par
+    background: url(ps4-assets/bumper.svgz) no-repeat;\par
+    opacity: 0;\par
+\}\par
+\par
+.ds4 .bumpers \{\par
+    position: absolute;\par
+    width: 588px;\par
+    height: 23px;\par
+    left: 109px;\par
+    top: 94px;\par
+\}\par
+\par
+.ds4 .bumper.pressed \{\par
+    opacity: 1;\par
+\}\par
+\par
+.ds4 .bumper.left \{\par
+    /* -webkit-transform: rotateY(180deg); */\par
+    /* transform: rotateY(180deg); */\par
+    float: left;\par
+\}\par
+\par
+.ds4 .bumper.right \{\par
+    float: right;\par
+    transform: rotateY(180deg);\par
+\}\par
+\par
+.ds4 .touchpad \{\par
+    width: 262px;\par
+    height: 151px;\par
+    position: absolute;\par
+    left: 272px;\par
+    top: 122px;\par
+\}\par
+\par
+.ds4 .touchpad.pressed \{\par
+    background: url(ps4-assets/touchpad.svgz) no-repeat center;\par
+\}\par
+\par
+.ds4 .meta \{\par
+    width: 42px;\par
+    height: 42px;\par
+    position: absolute;\par
+    left: 382px;\par
+    bottom: 216px;\par
+\}\par
+\par
+.ds4 .meta.pressed \{\par
+    background: url(ps4-assets/meta.svgz) no-repeat center;\par
+\}\par
+\par
+/*Not needed, but I like keeping them here for posterity*/\par
+/*.ds4 .quadrant\{\par
+position: absolute;\par
+background: url(ps4-assets/player-n.svgz);\par
+height: 17px;\par
+width: 111px;\par
+top: 140px;\par
+left: 240px;\par
+\}\par
+.ds4 .p0\{\par
+background-position: 0 -6px;\par
+\}\par
+.ds4 .p1\{\par
+background-position: 0 -28px;\par
+\}\par
+.ds4 .p2\{\par
+background-position: 0 -49px;\par
+\}\par
+.ds4 .p3\{\par
+background-position: 0 -70px;\par
+\}*/\par
+.ds4 .arrows \{\par
+    position: absolute;\par
+    width: 352px;\par
+    height: 46px;\par
+    top: 142px;\par
+    left: 227px;\par
+\}\par
+\par
+.ds4 .back, .ds4 .start \{\par
+    background: url(ps4-assets/start.svgz);\par
+    width: 28px;\par
+    height: 46px;\par
+    opacity: 0;\par
+\}\par
+\par
+.ds4 .back.pressed, .ds4 .start.pressed \{\par
+    /* background-position-y: -21px; */\par
+    /* margin-top: 2px; */\par
+    opacity: 1;\par
+\}\par
+\par
+.ds4 .back \{\par
+    float: left;\par
+    /* width: 28px; */\par
+\}\par
+\par
+.ds4 .start \{\par
+    float: right;\par
+    /* width: 28px; */\par
+    background-position: 28px 0;\par
+\}\par
+\par
+.ds4 .abxy \{\par
+    position: absolute;\par
+    width: 170px;\par
+    height: 171px;\par
+    top: 159px;\par
+    left: 567px;\par
+\}\par
+\par
+.ds4 .button \{\par
+    position: absolute;\par
+    width: 55px;\par
+    height: 55px;\par
+    background: url(https://imgur.com/zYRl0Y7.png);\par
+\}\par
+\par
+.ds4 .button.pressed \{\par
+    background-position-y: 55px;\par
+    /* margin-top: 5px; */\par
+\}\par
+\par
+.ds4 .a \{\par
+    background-position: 0 0;\par
+    bottom: 0;\par
+    left: 58px;\par
+\}\par
+\par
+.ds4 .b \{\par
+    background-position: -57px 0;\par
+    top: 58px;\par
+    right: 0px;\par
+\}\par
+\par
+.ds4 .x \{\par
+    background-position: -113px 0;\par
+    top: 58px;\par
+\}\par
+\par
+.ds4 .y \{\par
+    background-position: 55px 0;\par
+    left: 58px;\par
+\}\par
+\par
+.ds4 .sticks \{\par
+    position: absolute;\par
+    width: 361px;\par
+    height: 105px;\par
+    top: 308px;\par
+    left: 228px;\par
+\}\par
+\par
+.ds4 .stick \{\par
+    position: absolute;\par
+    background: url(https://imgur.com/rAm9gmc.png);\par
+    height: 94px;\par
+    width: 94px;\par
+\}\par
+\par
+.ds4 .stick.pressed.left \{\par
+    background-position-x: -96px;\par
+\}\par
+\par
+.ds4 .stick.pressed.right \{\par
+    background-position-x: -192px;\par
+\}\par
+\par
+.ds4 .stick.left \{\par
+    top: 0;\par
+    left: 0;\par
+\}\par
+\par
+.ds4 .stick.right \{\par
+    top: calc(100% - 105px);\par
+    left: calc(100% - 105px);\par
+\}\par
+\par
+.ds4 .dpad \{\par
+    position: absolute;\par
+    width: 125px;\par
+    height: 126px;\par
+    top: 181px;\par
+    left: 92px;\par
+\}\par
+\par
+.ds4 .face \{\par
+    background: url(https://imgur.com/NmDjmJM.png);\par
+    position: absolute;\par
+\}\par
+\par
+.ds4 .face.up, .ds4 .face.down \{\par
+    width: 36px;\par
+    height: 52px;\par
+\}\par
+\par
+.ds4 .face.left, .ds4 .face.right \{\par
+    width: 52px;\par
+    height: 36px;\par
+\}\par
+\par
+.ds4 .face.up \{\par
+    left: 44px;\par
+    top: 0;\par
+    background-position: -37px 0px;\par
+\}\par
+\par
+.ds4 .face.down \{\par
+    left: 44px;\par
+    bottom: 0;\par
+    background-position: 0px 0;\par
+\}\par
+\par
+.ds4 .face.left \{\par
+    top: 45px;\par
+    left: 0;\par
+    background-position: 104px 0;\par
+\}\par
+\par
+.ds4 .face.right \{\par
+    top: 45px;\par
+    right: 0px;\par
+    background-position: 52px 0;\par
+\}\par
+\par
+.ds4 .face.pressed \{\par
+    /* margin-top: 5px; */\par
+    background-position-y: 52px;\par
+\}\par
+\par
+.ds4.half \{\par
+    margin-top: -300px;\par
+\}\par
+\par
+/*END PS4 Controller Styling*/\par
+}
+ 
